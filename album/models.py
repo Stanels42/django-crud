@@ -9,3 +9,6 @@ class Album(models.Model):
 
   def __str__(self):
     return self.title
+
+  def get_abslute_url(self):
+    return

@@ -14,8 +14,9 @@
       {% block nav %}
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">List View</a></li>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'list' %}">List View</a></li>
+          <li><a href="{% url 'add' %}">Add Album</a></li>
         </ul>
       </nav>
       {% endblock nav %}

@@ -7,9 +7,8 @@
   <div>
     <h3>{{album.title}}</h3>
     <h3>{{album.artist}}</h3>
-    <h4>{{album.year}}</h4>
     <button>
-      <a href="#">Edit</a>
+      <a href="{% url 'detail' album.pk %}">Edit</a>
     </button>
   </div>
 {% endfor %}
