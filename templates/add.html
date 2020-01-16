@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Album{% endblock title %}
+
+{% block content %}
+<form action="">
+  {% csrf_token %}
+  {{form.as_p}}
+  <button type="submit" value="save">Save</button>
+</form>
+{% endblock content %}
