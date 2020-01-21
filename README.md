@@ -7,5 +7,5 @@ The Goal of today is to add 3 more views for adding data.
 Allow the user to fill out a form and add that information to the model.
 2) Update View: <br>
 Allow the user to go in and update the information that they have stored
-3) Delate View:<br>
+3) Delete View:<br>
 Last allow the user to delete the posts that are saved to the database.
