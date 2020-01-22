@@ -6,8 +6,13 @@
   <div>
     <h3>{{Album.title}}</h3>
     <h3>{{Album.artist}}</h3>
+    <h4>{{Album.year}}</h4>
+    <h4>{{Album.tracks}}</h4>
     <button>
       <a href="{% url 'update' Album.pk %}">Edit</a>
+    </button>
+    <button>
+      <a href="{% url 'remove' Album.pk %}">Delete</a>
     </button>
   </div>
 {% endblock content %}

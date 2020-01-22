@@ -3,9 +3,9 @@
 {% block title %}Add Album{% endblock title %}
 
 {% block content %}
-<form action="">
+<form action="" method="POST">
   {% csrf_token %}
   {{form.as_p}}
-  <button type="submit" value="save">Save</button>
+  <button type="submit" value="Save">Save</button>
 </form>
 {% endblock content %}
